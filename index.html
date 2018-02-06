@@ -4,24 +4,27 @@
   <title>Utilidades Intouch</title>
 </head>
 <body>
+<h1> Consola Administracion Intouch</h1>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Selecciona el fichero:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload" name="submit">
-</form>
-</p>
 
 <form action="logs.php" method="post" enctype="multipart/form-data">
     Ver logs del BE:
-   <input type="submit" value="Velor logs" name="submit">
+   <input type="submit" value="Ver logs" name="submit">
 </form>
-
+</p>
 <form action="erase.php" method="post" enctype="multipart/form-data">
     Borrar base de datos:
-   <input type="submit" value="Erase" name="submit">
+   <input type="submit" value="Reset" name="submit">
 </form>
 
+<br/>
+</p>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Selecciona el fichero:
+    <input type="file" name="fileToUpload" id="fileToUpload"><br>
+    <input type="submit" value="Upload" name="submit">
+</form>
+</p>
 
 </body>
 </html>
